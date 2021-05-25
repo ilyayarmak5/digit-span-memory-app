@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-Digit Span Memory
+# Digit Span Memory
 
 # Demo
 
