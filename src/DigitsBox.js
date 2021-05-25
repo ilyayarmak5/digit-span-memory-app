@@ -48,11 +48,13 @@ const DigitsBox = () => {
   // Display user's input
   useEffect(() => {
     setCurrentDigit(currentInput);
-    sleep(300).then(() => setCurrentDigit(null));
+    sleep(300).then(() => {
+      setCurrentDigit(null);
+    });
   }, [currentInput]);
 
   return (
-    <div className={"digits-box"}>
+    <div className="digits-box">
       {isUserCorrect ? (
         <CheckIcon className="check-icon" />
       ) : isUserIncorrect ? (
