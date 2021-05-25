@@ -1,0 +1,29 @@
+@import "../utilities/variables";
+
+@mixin iconRatio {
+  height: 10rem;
+  width: 10rem;
+}
+
+.digits-box {
+  background: $light-purple-clr;
+  min-width: 2em;
+  min-height: 2em;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  margin: $margin-sm 0;
+  color: $green-clr;
+
+  .cross-icon {
+    @include iconRatio;
+    color: $red-clr;
+  }
+
+  .check-icon {
+    @include iconRatio;
+    color: $green-clr;
+  }
+}

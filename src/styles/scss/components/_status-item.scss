@@ -1,0 +1,12 @@
+@import "../utilities/variables";
+
+.status-item {
+  height: 15em;
+  width: 15em;
+  border-radius: 50%;
+  background-color: $medium-purple-clr;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}

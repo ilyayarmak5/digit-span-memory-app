@@ -1,0 +1,72 @@
+@media screen and (max-width: 860px) {
+  .digit-btn {
+    height: 3em;
+    width: 3em;
+  }
+
+  .digits-box {
+    min-width: 1.5em;
+    min-height: 1.5em;
+  }
+
+  .status-item {
+    height: 10em;
+    width: 10em;
+  }
+  .play-btn {
+    padding: 0.75em 1.5em;
+  }
+  .keyboard {
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .App {
+    flex-direction: column;
+
+    .game {
+      width: 100%;
+
+      .digits-box {
+        min-width: 1.5em;
+        min-height: 1.5em;
+      }
+
+      .healthbar-3 {
+        width: 60vw;
+      }
+
+      .healthbar-2 {
+        width: 40vw;
+      }
+      .healthbar-1 {
+        width: 20vw;
+      }
+    }
+
+    .game-status {
+      width: 100%;
+
+      .status-item {
+        height: 15em;
+        width: 15em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .game {
+    height: auto;
+  }
+
+  .game-status {
+    height: auto;
+  }
+
+  .keyboard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

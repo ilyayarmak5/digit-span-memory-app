@@ -1,0 +1,23 @@
+@import "../utilities/variables";
+
+@mixin healthbarRatio {
+  height: 5vh;
+  border-radius: 30px;
+}
+
+.healthbar-3 {
+  @include healthbarRatio;
+  background: $green-clr;
+  width: 24vw;
+}
+
+.healthbar-2 {
+  @include healthbarRatio;
+  background: $orange-clr;
+  width: 16vw;
+}
+.healthbar-1 {
+  @include healthbarRatio;
+  background: $red-clr;
+  width: 8vw;
+}

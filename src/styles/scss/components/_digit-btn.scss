@@ -1,0 +1,22 @@
+@import "../utilities/variables";
+
+.digit-btn {
+  background: $light-purple-clr;
+  height: 5em;
+  width: 5em;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: white;
+  justify-self: center;
+  transition: $btn-transition;
+
+  &:hover {
+    cursor: pointer;
+    opacity: $btn-opacity;
+  }
+}
+
+.digit-btn-disabled {
+  opacity: 0.5;
+}

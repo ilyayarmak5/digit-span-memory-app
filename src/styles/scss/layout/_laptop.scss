@@ -1,0 +1,49 @@
+@media screen and (max-width: 1714px) {
+  .keyboard {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .keyboard {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .keyboard {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .keyboard {
+    width: 95%;
+  }
+
+  .digit-btn {
+    height: 4em;
+    width: 4em;
+  }
+
+  .healthbar-3 {
+    width: 36vw;
+  }
+
+  .healthbar-2 {
+    width: 24vw;
+  }
+  .healthbar-1 {
+    width: 12vw;
+  }
+}
+
+@media screen and (max-height: 560px) {
+  .game {
+    height: 200vh;
+  }
+
+  .game-status {
+    height: 200vh;
+  }
+}
