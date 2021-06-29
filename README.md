@@ -13,6 +13,7 @@ A digit span memory game which creates a new digit sequence based on current pla
 3. Display a red cross whenever the player's input is not the same as the generated sequence.
 4. Increase the length of a sequence whenever the player reaches a new level.
 5. The player has 3 health points. Whenever a player loses 1 health - the health bar changes its length and color. When the player loses all of his health, the game restarts.
+6. If the player has no health left - display a modal with his results.
 
 # Technologies used:
 
